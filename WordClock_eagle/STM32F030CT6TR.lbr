@@ -58,9 +58,11 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;Unipac Optoelectronics&lt;/b&gt;&lt;p&gt;
-Unipac (www.unipac.com.tw) is a manufacturer of TFT-LCDs and controller ICs.&lt;p&gt;
-&lt;author&gt;Created by larwe@larwe.com&lt;/author&gt;</description>
+<description>Simple Library containing only an STM32F030CT6TR Device.
+&lt;br&gt;
+LQFP64 Package by: larwe@larwe.com (originally the unipac.lbr)
+&lt;br&gt;
+STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <packages>
 <package name="LQFP64">
 <description>&lt;b&gt;LQFP64&lt;/b&gt;</description>
