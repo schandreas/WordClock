@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -62,7 +62,9 @@
 &lt;br&gt;
 LQFP64 Package by: larwe@larwe.com (originally the unipac.lbr)
 &lt;br&gt;
-STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
+STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at
+&lt;br&gt;
+TSOT26 Package from: https://github.com/jpwright/eagle-lbr/blob/master/diodes-custom.lbr</description>
 <packages>
 <package name="LQFP64">
 <description>&lt;b&gt;LQFP64&lt;/b&gt;</description>
@@ -137,6 +139,28 @@ STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <smd name="63" x="-4.81" y="3.16" dx="1" dy="0.27" layer="1"/>
 <smd name="64" x="-4.81" y="3.66" dx="1" dy="0.27" layer="1"/>
 </package>
+<package name="TSOT26">
+<smd name="P$1" x="-0.95" y="-1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$3" x="0.95" y="-1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$4" x="0.95" y="1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$5" x="0" y="1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.95" y="1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
+<wire x1="-1.45" y1="0.8" x2="1.45" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.45" y1="0.8" x2="1.45" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-0.8" x2="-1.45" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-0.8" x2="-1.45" y2="0.8" width="0.127" layer="51"/>
+<circle x="-1" y="-0.2" radius="0.2" width="0.127" layer="51"/>
+<circle x="-1" y="-0.2" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<text x="-2" y="-1.2" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.6" y="-1.2" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="NRHINDUCTOR">
+<smd name="P$1" x="-1.45" y="0" dx="0.7" dy="2" layer="1"/>
+<smd name="P$2" x="0" y="0" dx="0.7" dy="2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F030RCT6TR">
@@ -206,6 +230,25 @@ STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <wire x1="48.26" y1="-83.82" x2="48.26" y2="7.62" width="0.254" layer="94"/>
 <wire x1="48.26" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="20.32" y="-50.8" size="2.1844" layer="94" rot="R90">STM32F030RCT6TR</text>
+</symbol>
+<symbol name="AP65111A">
+<pin name="VIN" x="-17.78" y="5.08" length="middle"/>
+<pin name="EN" x="-17.78" y="0" length="middle"/>
+<pin name="BST" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="SW" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="FB" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="-2.54" y="-15.24" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="L-EU">
+<text x="-1.4986" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -277,6 +320,42 @@ STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <connect gate="G$1" pin="VDDA" pad="13"/>
 <connect gate="G$1" pin="VSS" pad="31 63"/>
 <connect gate="G$1" pin="VSSA" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP65111A">
+<gates>
+<gate name="G$1" symbol="AP65111A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOT26">
+<connects>
+<connect gate="G$1" pin="BST" pad="P$4"/>
+<connect gate="G$1" pin="EN" pad="P$5"/>
+<connect gate="G$1" pin="FB" pad="P$6"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="SW" pad="P$3"/>
+<connect gate="G$1" pin="VIN" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRHINDUCTOR">
+<gates>
+<gate name="G$1" symbol="L-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NRHINDUCTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
