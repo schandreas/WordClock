@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Simple Library containing only an STM32F030CT6TR Device.
+<description>Simple Library containing only an STM32F030RCT6TR Device.
 &lt;br&gt;
 LQFP64 Package by: larwe@larwe.com (originally the unipac.lbr)
 &lt;br&gt;
@@ -66,76 +66,76 @@ STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <packages>
 <package name="LQFP64">
 <description>&lt;b&gt;LQFP64&lt;/b&gt;</description>
-<wire x1="-24.65" y1="20.15" x2="-25.9" y2="20.15" width="0.127" layer="25"/>
-<wire x1="-25.9" y1="20.15" x2="-25.9" y2="10.15" width="0.127" layer="25"/>
-<wire x1="-25.9" y1="10.15" x2="-15.9" y2="10.15" width="0.127" layer="25"/>
-<wire x1="-15.9" y1="10.15" x2="-15.9" y2="20.15" width="0.127" layer="25"/>
-<wire x1="-15.9" y1="20.15" x2="-24.6" y2="20.15" width="0.127" layer="25"/>
-<circle x="-25.5" y="10.55" radius="0.0707" width="0.127" layer="25"/>
-<smd name="1" x="-24.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="2" x="-24.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="3" x="-23.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="4" x="-23.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="5" x="-22.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="6" x="-22.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="7" x="-21.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="8" x="-21.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="9" x="-20.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="10" x="-20.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="11" x="-19.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="12" x="-19.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="13" x="-18.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="14" x="-18.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="15" x="-17.65" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="16" x="-17.15" y="9.65" dx="0.27" dy="1" layer="1"/>
-<smd name="17" x="-15.4" y="11.4" dx="1" dy="0.27" layer="1"/>
-<smd name="18" x="-15.4" y="11.9" dx="1" dy="0.27" layer="1"/>
-<smd name="19" x="-15.4" y="12.4" dx="1" dy="0.27" layer="1"/>
-<smd name="20" x="-15.4" y="12.9" dx="1" dy="0.27" layer="1"/>
-<smd name="21" x="-15.4" y="13.4" dx="1" dy="0.27" layer="1"/>
-<smd name="22" x="-15.4" y="13.9" dx="1" dy="0.27" layer="1"/>
-<smd name="23" x="-15.4" y="14.4" dx="1" dy="0.27" layer="1"/>
-<smd name="24" x="-15.4" y="14.9" dx="1" dy="0.27" layer="1"/>
-<smd name="25" x="-15.4" y="15.4" dx="1" dy="0.27" layer="1"/>
-<smd name="26" x="-15.4" y="15.9" dx="1" dy="0.27" layer="1"/>
-<smd name="27" x="-15.4" y="16.4" dx="1" dy="0.27" layer="1"/>
-<smd name="28" x="-15.4" y="16.9" dx="1" dy="0.27" layer="1"/>
-<smd name="29" x="-15.4" y="17.4" dx="1" dy="0.27" layer="1"/>
-<smd name="30" x="-15.4" y="17.9" dx="1" dy="0.27" layer="1"/>
-<smd name="31" x="-15.4" y="18.4" dx="1" dy="0.27" layer="1"/>
-<smd name="32" x="-15.4" y="18.9" dx="1" dy="0.27" layer="1"/>
-<smd name="33" x="-17.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="34" x="-17.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="35" x="-18.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="36" x="-18.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="37" x="-19.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="38" x="-19.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="39" x="-20.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="40" x="-20.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="41" x="-21.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="42" x="-21.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="43" x="-22.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="44" x="-22.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="45" x="-23.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="46" x="-23.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="47" x="-24.15" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="48" x="-24.65" y="20.65" dx="0.27" dy="1" layer="1"/>
-<smd name="49" x="-26.4" y="11.4" dx="1" dy="0.27" layer="1"/>
-<smd name="50" x="-26.4" y="11.9" dx="1" dy="0.27" layer="1"/>
-<smd name="51" x="-26.4" y="12.4" dx="1" dy="0.27" layer="1"/>
-<smd name="52" x="-26.4" y="12.9" dx="1" dy="0.27" layer="1"/>
-<smd name="53" x="-26.4" y="13.4" dx="1" dy="0.27" layer="1"/>
-<smd name="54" x="-26.4" y="13.9" dx="1" dy="0.27" layer="1"/>
-<smd name="55" x="-26.4" y="14.4" dx="1" dy="0.27" layer="1"/>
-<smd name="56" x="-26.4" y="14.9" dx="1" dy="0.27" layer="1"/>
-<smd name="57" x="-26.4" y="15.4" dx="1" dy="0.27" layer="1"/>
-<smd name="58" x="-26.4" y="15.9" dx="1" dy="0.27" layer="1"/>
-<smd name="59" x="-26.4" y="16.4" dx="1" dy="0.27" layer="1"/>
-<smd name="60" x="-26.4" y="16.9" dx="1" dy="0.27" layer="1"/>
-<smd name="61" x="-26.4" y="17.4" dx="1" dy="0.27" layer="1"/>
-<smd name="62" x="-26.4" y="17.9" dx="1" dy="0.27" layer="1"/>
-<smd name="63" x="-26.4" y="18.4" dx="1" dy="0.27" layer="1"/>
-<smd name="64" x="-26.4" y="18.9" dx="1" dy="0.27" layer="1"/>
+<wire x1="-3.06" y1="4.91" x2="-4.31" y2="4.91" width="0.127" layer="25"/>
+<wire x1="-4.31" y1="4.91" x2="-4.31" y2="-5.09" width="0.127" layer="25"/>
+<wire x1="-4.31" y1="-5.09" x2="5.69" y2="-5.09" width="0.127" layer="25"/>
+<wire x1="5.69" y1="-5.09" x2="5.69" y2="4.91" width="0.127" layer="25"/>
+<wire x1="5.69" y1="4.91" x2="-3.01" y2="4.91" width="0.127" layer="25"/>
+<circle x="-3.91" y="-4.69" radius="0.0707" width="0.127" layer="25"/>
+<smd name="1" x="-3.06" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="2" x="-2.56" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="3" x="-2.06" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="4" x="-1.56" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="5" x="-1.06" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="6" x="-0.56" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="7" x="-0.06" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="8" x="0.44" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="9" x="0.94" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="10" x="1.44" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="11" x="1.94" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="12" x="2.44" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="13" x="2.94" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="14" x="3.44" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="15" x="3.94" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="16" x="4.44" y="-5.59" dx="0.27" dy="1" layer="1"/>
+<smd name="17" x="6.19" y="-3.84" dx="1" dy="0.27" layer="1"/>
+<smd name="18" x="6.19" y="-3.34" dx="1" dy="0.27" layer="1"/>
+<smd name="19" x="6.19" y="-2.84" dx="1" dy="0.27" layer="1"/>
+<smd name="20" x="6.19" y="-2.34" dx="1" dy="0.27" layer="1"/>
+<smd name="21" x="6.19" y="-1.84" dx="1" dy="0.27" layer="1"/>
+<smd name="22" x="6.19" y="-1.34" dx="1" dy="0.27" layer="1"/>
+<smd name="23" x="6.19" y="-0.84" dx="1" dy="0.27" layer="1"/>
+<smd name="24" x="6.19" y="-0.34" dx="1" dy="0.27" layer="1"/>
+<smd name="25" x="6.19" y="0.16" dx="1" dy="0.27" layer="1"/>
+<smd name="26" x="6.19" y="0.66" dx="1" dy="0.27" layer="1"/>
+<smd name="27" x="6.19" y="1.16" dx="1" dy="0.27" layer="1"/>
+<smd name="28" x="6.19" y="1.66" dx="1" dy="0.27" layer="1"/>
+<smd name="29" x="6.19" y="2.16" dx="1" dy="0.27" layer="1"/>
+<smd name="30" x="6.19" y="2.66" dx="1" dy="0.27" layer="1"/>
+<smd name="31" x="6.19" y="3.16" dx="1" dy="0.27" layer="1"/>
+<smd name="32" x="6.19" y="3.66" dx="1" dy="0.27" layer="1"/>
+<smd name="33" x="4.44" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="34" x="3.94" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="35" x="3.44" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="36" x="2.94" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="37" x="2.44" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="38" x="1.94" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="39" x="1.44" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="40" x="0.94" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="41" x="0.44" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="42" x="-0.06" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="43" x="-0.56" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="44" x="-1.06" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="45" x="-1.56" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="46" x="-2.06" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="47" x="-2.56" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="48" x="-3.06" y="5.41" dx="0.27" dy="1" layer="1"/>
+<smd name="49" x="-4.81" y="-3.84" dx="1" dy="0.27" layer="1"/>
+<smd name="50" x="-4.81" y="-3.34" dx="1" dy="0.27" layer="1"/>
+<smd name="51" x="-4.81" y="-2.84" dx="1" dy="0.27" layer="1"/>
+<smd name="52" x="-4.81" y="-2.34" dx="1" dy="0.27" layer="1"/>
+<smd name="53" x="-4.81" y="-1.84" dx="1" dy="0.27" layer="1"/>
+<smd name="54" x="-4.81" y="-1.34" dx="1" dy="0.27" layer="1"/>
+<smd name="55" x="-4.81" y="-0.84" dx="1" dy="0.27" layer="1"/>
+<smd name="56" x="-4.81" y="-0.34" dx="1" dy="0.27" layer="1"/>
+<smd name="57" x="-4.81" y="0.16" dx="1" dy="0.27" layer="1"/>
+<smd name="58" x="-4.81" y="0.66" dx="1" dy="0.27" layer="1"/>
+<smd name="59" x="-4.81" y="1.16" dx="1" dy="0.27" layer="1"/>
+<smd name="60" x="-4.81" y="1.66" dx="1" dy="0.27" layer="1"/>
+<smd name="61" x="-4.81" y="2.16" dx="1" dy="0.27" layer="1"/>
+<smd name="62" x="-4.81" y="2.66" dx="1" dy="0.27" layer="1"/>
+<smd name="63" x="-4.81" y="3.16" dx="1" dy="0.27" layer="1"/>
+<smd name="64" x="-4.81" y="3.66" dx="1" dy="0.27" layer="1"/>
 </package>
 </packages>
 <symbols>
