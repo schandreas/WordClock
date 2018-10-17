@@ -21637,28 +21637,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X11" device="" package3d_urn="urn:adsk.eagle:package:22410/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
 <part name="U4" library="STM32F030RCT6TR" deviceset="MBT3906DW1T1G" device=""/>
-<part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="U1" library="STM32F030RCT6TR" deviceset="MBT3906DW1T1G" device=""/>
-<part name="VDD6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="U2" library="STM32F030RCT6TR" deviceset="MBT3906DW1T1G" device=""/>
-<part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="U3" library="STM32F030RCT6TR" deviceset="MBT3906DW1T1G" device=""/>
-<part name="VDD10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="U5" library="STM32F030RCT6TR" deviceset="MBT3906DW1T1G" device=""/>
-<part name="VDD12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1k"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
@@ -21781,12 +21771,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="116.84" y="-22.86" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="119.38" y="-22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VDD4" gate="G$1" x="114.3" y="-10.16">
-<attribute name="VALUE" x="111.76" y="-12.7" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD5" gate="G$1" x="96.52" y="-10.16">
-<attribute name="VALUE" x="93.98" y="-12.7" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R7" gate="G$1" x="88.9" y="-12.7" rot="R90">
 <attribute name="NAME" x="87.4014" y="-16.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="92.202" y="-16.51" size="1.778" layer="96" rot="R90"/>
@@ -21802,12 +21786,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U1" gate="T2" x="147.32" y="-20.32">
 <attribute name="NAME" x="152.4" y="-22.86" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="154.94" y="-22.86" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD6" gate="G$1" x="149.86" y="-10.16">
-<attribute name="VALUE" x="147.32" y="-12.7" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD7" gate="G$1" x="132.08" y="-10.16">
-<attribute name="VALUE" x="129.54" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="124.46" y="-12.7" rot="R90">
 <attribute name="NAME" x="122.9614" y="-16.51" size="1.778" layer="95" rot="R90"/>
@@ -21825,12 +21803,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="99.06" y="-55.88" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="101.6" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VDD8" gate="G$1" x="96.52" y="-43.18">
-<attribute name="VALUE" x="93.98" y="-45.72" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD9" gate="G$1" x="167.64" y="-10.16">
-<attribute name="VALUE" x="165.1" y="-12.7" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R11" gate="G$1" x="160.02" y="-12.7" rot="R90">
 <attribute name="NAME" x="158.5214" y="-16.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="163.322" y="-16.51" size="1.778" layer="96" rot="R90"/>
@@ -21847,12 +21819,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="134.62" y="-55.88" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.16" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VDD10" gate="G$1" x="132.08" y="-43.18">
-<attribute name="VALUE" x="129.54" y="-45.72" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD11" gate="G$1" x="114.3" y="-43.18">
-<attribute name="VALUE" x="111.76" y="-45.72" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R13" gate="G$1" x="106.68" y="-45.72" rot="R90">
 <attribute name="NAME" x="105.1814" y="-49.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="109.982" y="-49.53" size="1.778" layer="96" rot="R90"/>
@@ -21868,12 +21834,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U5" gate="T2" x="165.1" y="-53.34">
 <attribute name="NAME" x="170.18" y="-55.88" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="172.72" y="-55.88" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD12" gate="G$1" x="167.64" y="-43.18">
-<attribute name="VALUE" x="165.1" y="-45.72" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="VDD13" gate="G$1" x="149.86" y="-43.18">
-<attribute name="VALUE" x="147.32" y="-45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R15" gate="G$1" x="142.24" y="-45.72" rot="R90">
 <attribute name="NAME" x="140.7414" y="-49.53" size="1.778" layer="95" rot="R90"/>
@@ -21934,56 +21894,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="40.64" x2="292.1" y2="43.18" width="0.1524" layer="91"/>
 <junction x="292.1" y="43.18"/>
-</segment>
-<segment>
-<pinref part="U4" gate="T1" pin="E"/>
-<pinref part="VDD5" gate="G$1" pin="VDD"/>
-<wire x1="96.52" y1="-15.24" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="T2" pin="E"/>
-<pinref part="VDD4" gate="G$1" pin="VDD"/>
-<wire x1="114.3" y1="-15.24" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="T1" pin="E"/>
-<pinref part="VDD7" gate="G$1" pin="VDD"/>
-<wire x1="132.08" y1="-15.24" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="T2" pin="E"/>
-<pinref part="VDD6" gate="G$1" pin="VDD"/>
-<wire x1="149.86" y1="-15.24" x2="149.86" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="T1" pin="E"/>
-<pinref part="VDD9" gate="G$1" pin="VDD"/>
-<wire x1="167.64" y1="-15.24" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="T2" pin="E"/>
-<pinref part="VDD8" gate="G$1" pin="VDD"/>
-<wire x1="96.52" y1="-48.26" x2="96.52" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="T1" pin="E"/>
-<pinref part="VDD11" gate="G$1" pin="VDD"/>
-<wire x1="114.3" y1="-48.26" x2="114.3" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="T2" pin="E"/>
-<pinref part="VDD10" gate="G$1" pin="VDD"/>
-<wire x1="132.08" y1="-48.26" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U5" gate="T1" pin="E"/>
-<pinref part="VDD13" gate="G$1" pin="VDD"/>
-<wire x1="149.86" y1="-48.26" x2="149.86" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U5" gate="T2" pin="E"/>
-<pinref part="VDD12" gate="G$1" pin="VDD"/>
-<wire x1="167.64" y1="-48.26" x2="167.64" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -22232,7 +22142,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="160.02" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VCC_RAW" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="VIN"/>
@@ -22242,6 +22152,57 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="208.28" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="43.18" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
 <junction x="203.2" y="48.26"/>
+<label x="203.2" y="43.18" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="T1" pin="E"/>
+<wire x1="96.52" y1="-15.24" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>
+<label x="96.52" y="-12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="T2" pin="E"/>
+<wire x1="114.3" y1="-15.24" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
+<label x="114.3" y="-12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="T1" pin="E"/>
+<wire x1="132.08" y1="-15.24" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
+<label x="132.08" y="-12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="T2" pin="E"/>
+<wire x1="149.86" y1="-15.24" x2="149.86" y2="-12.7" width="0.1524" layer="91"/>
+<label x="149.86" y="-12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="T1" pin="E"/>
+<wire x1="167.64" y1="-15.24" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="167.64" y="-12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="T2" pin="E"/>
+<wire x1="96.52" y1="-48.26" x2="96.52" y2="-45.72" width="0.1524" layer="91"/>
+<label x="96.52" y="-45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="T1" pin="E"/>
+<wire x1="114.3" y1="-48.26" x2="114.3" y2="-45.72" width="0.1524" layer="91"/>
+<label x="114.3" y="-45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="T2" pin="E"/>
+<wire x1="132.08" y1="-48.26" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
+<label x="132.08" y="-45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="T1" pin="E"/>
+<wire x1="149.86" y1="-48.26" x2="149.86" y2="-45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="-45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="T2" pin="E"/>
+<wire x1="167.64" y1="-48.26" x2="167.64" y2="-45.72" width="0.1524" layer="91"/>
+<label x="167.64" y="-45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
