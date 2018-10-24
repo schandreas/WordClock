@@ -1,4 +1,8 @@
 {
+	"author": {
+        "email": "bimpfkinder@gmail.com",
+        "name": "Ano Nym"
+    },
     "description": {
         "EN": "EAGLE default 2 layer CAM job."
     },
@@ -201,5 +205,5 @@
     "timestamp": "2018-09-28T15:33:03",
     "type": "EAGLE CAM job",
     "units": "metric",
-    "version": "8.6.1"
+    "version": "9.2.0"
 }
