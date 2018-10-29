@@ -101,13 +101,15 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  RTC_TimeTypeDef time;
   while (1)
   {
 
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-
+	  HAL_RTC_GetTime(&hrtc, &time, RTC_FORMAT_BIN);
+	  printf("%d:%d:%d", time.Hours, time.Minutes, time.Seconds);
   }
   /* USER CODE END 3 */
 
