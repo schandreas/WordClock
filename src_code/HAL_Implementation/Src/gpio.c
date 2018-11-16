@@ -69,14 +69,16 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, LE_Pin|CLK_Pin|SDI_Pin|OE_Pin 
-                          |LCOL9_Pin|LCOL10_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LE_Pin|CLK_Pin|SDI_Pin|OE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, LCOL1_Pin|LCOL2_Pin|LCOL3_Pin|LCOL4_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, LCOL1_Pin|LCOL2_Pin|LCOL3_Pin|LCOL4_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, LCOL5_Pin|LCOL6_Pin|LCOL7_Pin|LCOL8_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, LCOL5_Pin|LCOL6_Pin|LCOL7_Pin|LCOL8_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, LCOL9_Pin|LCOL10_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : PCPin PCPin */
   GPIO_InitStruct.Pin = BTN1_Pin|BTN2_Pin;
