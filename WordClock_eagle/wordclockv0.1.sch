@@ -10598,22 +10598,22 @@ STM32F030CT6TR Symbol &amp; Device by: ascharnr@htl-steyr.ac.at</description>
 <smd name="46" x="-2.06" y="5.41" dx="0.27" dy="1" layer="1"/>
 <smd name="47" x="-2.56" y="5.41" dx="0.27" dy="1" layer="1"/>
 <smd name="48" x="-3.06" y="5.41" dx="0.27" dy="1" layer="1"/>
-<smd name="49" x="-4.81" y="-3.84" dx="1" dy="0.27" layer="1"/>
-<smd name="50" x="-4.81" y="-3.34" dx="1" dy="0.27" layer="1"/>
-<smd name="51" x="-4.81" y="-2.84" dx="1" dy="0.27" layer="1"/>
-<smd name="52" x="-4.81" y="-2.34" dx="1" dy="0.27" layer="1"/>
-<smd name="53" x="-4.81" y="-1.84" dx="1" dy="0.27" layer="1"/>
-<smd name="54" x="-4.81" y="-1.34" dx="1" dy="0.27" layer="1"/>
-<smd name="55" x="-4.81" y="-0.84" dx="1" dy="0.27" layer="1"/>
-<smd name="56" x="-4.81" y="-0.34" dx="1" dy="0.27" layer="1"/>
-<smd name="57" x="-4.81" y="0.16" dx="1" dy="0.27" layer="1"/>
-<smd name="58" x="-4.81" y="0.66" dx="1" dy="0.27" layer="1"/>
-<smd name="59" x="-4.81" y="1.16" dx="1" dy="0.27" layer="1"/>
-<smd name="60" x="-4.81" y="1.66" dx="1" dy="0.27" layer="1"/>
-<smd name="61" x="-4.81" y="2.16" dx="1" dy="0.27" layer="1"/>
-<smd name="62" x="-4.81" y="2.66" dx="1" dy="0.27" layer="1"/>
-<smd name="63" x="-4.81" y="3.16" dx="1" dy="0.27" layer="1"/>
-<smd name="64" x="-4.81" y="3.66" dx="1" dy="0.27" layer="1"/>
+<smd name="64" x="-4.81" y="-3.84" dx="1" dy="0.27" layer="1"/>
+<smd name="63" x="-4.81" y="-3.34" dx="1" dy="0.27" layer="1"/>
+<smd name="62" x="-4.81" y="-2.84" dx="1" dy="0.27" layer="1"/>
+<smd name="61" x="-4.81" y="-2.34" dx="1" dy="0.27" layer="1"/>
+<smd name="60" x="-4.81" y="-1.84" dx="1" dy="0.27" layer="1"/>
+<smd name="59" x="-4.81" y="-1.34" dx="1" dy="0.27" layer="1"/>
+<smd name="58" x="-4.81" y="-0.84" dx="1" dy="0.27" layer="1"/>
+<smd name="57" x="-4.81" y="-0.34" dx="1" dy="0.27" layer="1"/>
+<smd name="56" x="-4.81" y="0.16" dx="1" dy="0.27" layer="1"/>
+<smd name="55" x="-4.81" y="0.66" dx="1" dy="0.27" layer="1"/>
+<smd name="54" x="-4.81" y="1.16" dx="1" dy="0.27" layer="1"/>
+<smd name="53" x="-4.81" y="1.66" dx="1" dy="0.27" layer="1"/>
+<smd name="52" x="-4.81" y="2.16" dx="1" dy="0.27" layer="1"/>
+<smd name="51" x="-4.81" y="2.66" dx="1" dy="0.27" layer="1"/>
+<smd name="50" x="-4.81" y="3.16" dx="1" dy="0.27" layer="1"/>
+<smd name="49" x="-4.81" y="3.66" dx="1" dy="0.27" layer="1"/>
 </package>
 <package name="TSOT26">
 <smd name="P$1" x="-0.95" y="-1.0995" dx="1" dy="0.7" layer="1" rot="R90"/>
@@ -10787,7 +10787,7 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <gate name="G$1" symbol="STM32F030RCT6TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LQFP64">
+<device name="LQFP64" package="LQFP64">
 <connects>
 <connect gate="G$1" pin="BOOT0" pad="60"/>
 <connect gate="G$1" pin="NRST" pad="7"/>
@@ -21643,7 +21643,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="TC26V" value="32.768kHz"/>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49U-V" package3d_urn="urn:adsk.eagle:package:12075/1" value="8MHz"/>
-<part name="U$1" library="STM32F030RCT6TR" deviceset="STM32F030RCT6TR" device=""/>
+<part name="U$1" library="STM32F030RCT6TR" deviceset="STM32F030RCT6TR" device="LQFP64"/>
 <part name="U$2" library="STM32F030RCT6TR" deviceset="AP65111A" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100k"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="1uF"/>
